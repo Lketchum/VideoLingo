@@ -7,14 +7,14 @@
 
 ## ======================== Basic Settings ======================== ##
 
-display_language: "zh-CN"
+display_language: "en"
 
 # API settings
 api:
-  key: 'your-api-key'
-  base_url: 'https://yunwu.ai'
-  model: ''
-  llm_support_json: false
+  key: 'sk-275d162e479e48b18046dfc6690e5003'
+  base_url: 'https://api.deepseek.com'
+  model: 'deepseek-v4-flash'
+  llm_support_json: true
 # *Number of LLM multi-threaded accesses, set to 1 if using local LLM
 max_workers: 4
 
@@ -71,7 +71,7 @@ pause_before_translate: false
 
 ## ======================== Dubbing Settings ======================== ##
 # TTS selection [sf_fish_tts, openai_tts, gpt_sovits, azure_tts, fish_tts, edge_tts, custom_tts]
-tts_method: 'azure_tts'
+tts_method: 'edge_tts'
 
 # SiliconFlow FishTTS
 sf_fish_tts:

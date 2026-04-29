@@ -1,5 +1,6 @@
 @echo off
 cd /D "%~dp0"
+set "PATH=%CD%\.venv\Scripts;%PATH%"
 
 :: Log file with timestamp
 for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set dt=%%I
